@@ -126,6 +126,14 @@ pokemoninfinity:
  Grade: Platinum
  Category: Games
  Icon: InfinityIcon.ico 
+ 
+osu:
+ Arch: win64
+ Name: osu!
+ Description: osu! is a free-to-play rhythm game primarily developed by Dean "peppy" Herbert.
+ Grade: Undefined
+ Category: Games
+ Icon: osu.png
 
 #rockstar:
 #  Arch: win64
