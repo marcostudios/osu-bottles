@@ -1,0 +1,26 @@
+Name: osu
+Description: osu! is a free-to-play rhythm game primarily developed by Dean "peppy" Herbert.
+Grade: Undefined
+Arch: win64
+
+Dependencies:
+- dotnet48
+- gdiplus
+
+Parameters:
+  dxvk: false
+  sync: fsync
+  discrete_gpu: true
+  
+Executable:
+  name: osu!
+  icon: osu.svg
+  file: osu!.exe
+  path: userdir/AppData/Local/osu/osu!.exe
+  arguments:
+  
+Steps:
+- action: install_msi
+  file_name: osu!install.exe
+  url: https://m1.ppy.sh/r/osu!install.exe
+  file_checksum: b25c2f54b6ae0f29ebebedb8d437e29d
